@@ -1,3 +1,6 @@
 # Deploying
-First, install WhiteNoise with: $ \alpha $
+First, install WhiteNoise with:
+```
 $ pip install whitenoise
+```
+
