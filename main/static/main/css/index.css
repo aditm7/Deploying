@@ -11,8 +11,6 @@ body {
     width: 100%;
     min-height: 820px;
     background-size: cover;
-    animation: fadeInAnimation ease-in-out 1s;
-    animation-iteration-count: 1;
 }
 
 #showcase .overlay-dark {
@@ -107,7 +105,9 @@ body {
     max-height: 80px;
     width: 200px;
     color: #424447;
-    margin-top: 180px;
+    margin-top: 30px;
+    animation: fadeInAnimation ease-in-out 1s;
+    animation-iteration-count: 1;
 }
 
 #mentalspace h1 {
