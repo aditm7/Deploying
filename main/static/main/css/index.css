@@ -48,6 +48,7 @@ body {
     font-size: 65px;
     font-weight: 500;
     animation: fadeIAnimation ease-in-out 1s;
+    animation-delay: 0.5s;
     animation-iteration-count: 1;
 }
 
@@ -90,13 +91,13 @@ body {
 .IntroHead {
     color: #ed4950;
     font-style: italic;
-    animation: fadeInAnimation ease-in-out 1s;
+    animation: fadeInAnimation ease-in-out 0.5s;
     animation-iteration-count: 1;
 }
 
 .Intro {
     color: #33a4ff;
-    animation: fadeInAnimation ease-in-out 1s;
+    animation: fadeInAnimation ease-in-out 0.5s;
     animation-iteration-count: 1;
 }
 
@@ -106,7 +107,7 @@ body {
     width: 200px;
     color: #424447;
     margin-top: 30px;
-    animation: fadeInAnimation ease-in-out 1s;
+    animation: fadeInAnimation ease-in-out 0.5s;
     animation-iteration-count: 1;
 }
 
@@ -125,7 +126,7 @@ body {
         opacity: 0;
     }
     100% {
-        opacity: 1;
+        opacity: 0;
     }
 }
 
